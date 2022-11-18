@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+h1 {
+	font-family: Courier;
+	font-size: 40pt;
+	color: lightskyblue;
+	text-shadow: 2px 2px 2px steelblue;
+	}
+		
+h2 {
+	font-family: Courier;
+	font-size: 20pt;
+	color: salmon;
+	}
+		
+h3 {
+	font-family: Courier;
+	font-size: 15pt;
+	}
+		
+body {
+	background-color: #f8ffd0;
+	}
+	
+div#interface {
+	width: 900px;
+	background-color: orchid;
+	margin: -20px auto 0px auto;
+}
+
+/* FORMATAÇÃO MENU */
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	position: absolute;
+	top: 40px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: pink;
+	padding: 3px;
+	text-align: center;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover {
+	background-color: #FFF0F5;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a{
+	color: darkmagenta;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: darkcyan;
+}
