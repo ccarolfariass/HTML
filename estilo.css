@@ -1,5 +1,12 @@
 @charset "UTF-8";
-	
+@font-face { 
+	font-family: 'FonteLogo';
+	src: url("../_fontes/GROBOLD.ttf");
+}
+@font-face {
+	font-family: 'FonteUL';
+	src: url("../_fontes/MilkyNice.ttf");
+}
 body {
 	background-color: rgb(251, 251, 143);
 	}
@@ -15,6 +22,7 @@ header#cabecalho img#icone{
 	position: absolute;
 	left: 980px;
 	top: 20px;
+	padding: 15px;
 }
 
 header#cabecalho {
@@ -23,16 +31,15 @@ header#cabecalho {
 }
 
 header#cabecalho h1 {
-	font-family: sans-serif;
+	font-family: 'FonteLogo';
 	font-size: 40pt;
-	color: lightskyblue;
-	text-shadow: 2px 2px 2px steelblue;
-	padding: 0px;
+	color: #037b9e;
+	padding: 5px;
 }
 
 header#cabecalho h2 {
-	font-family: sans-serif;
-	font-size: 15pt;
+	font-family: 'FonteUL';
+	font-size: 16pt;
 	color: salmon;
 	padding: 0px;
 	margin-top: 0px;
