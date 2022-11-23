@@ -1,31 +1,41 @@
 @charset "UTF-8";
-
-h1 {
-	font-family: Courier;
-	font-size: 40pt;
-	color: lightskyblue;
-	text-shadow: 2px 2px 2px steelblue;
-	}
-		
-h2 {
-	font-family: Courier;
-	font-size: 20pt;
-	color: salmon;
-	}
-		
-h3 {
-	font-family: Courier;
-	font-size: 15pt;
-	}
-		
+	
 body {
-	background-color: #f8ffd0;
+	background-color: rgb(251, 251, 143);
 	}
 	
 div#interface {
 	width: 900px;
-	background-color: orchid;
+	background-color: #f7f7f7;
 	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgb(132, 44, 105);
+}
+
+header#cabecalho img#icone{
+	position: absolute;
+	left: 980px;
+	top: 20px;
+}
+
+header#cabecalho {
+	border-bottom: 3px pink dotted;
+	height: 150px;
+}
+
+header#cabecalho h1 {
+	font-family: sans-serif;
+	font-size: 40pt;
+	color: lightskyblue;
+	text-shadow: 2px 2px 2px steelblue;
+	padding: 0px;
+}
+
+header#cabecalho h2 {
+	font-family: sans-serif;
+	font-size: 15pt;
+	color: salmon;
+	padding: 0px;
+	margin-top: 0px;
 }
 
 /* FORMATAÇÃO MENU */
@@ -37,7 +47,7 @@ nav#menu {
 nav#menu ul {
 	list-style: none;
 	position: absolute;
-	top: 40px;
+	top: 80px;
 }
 
 nav#menu li {
