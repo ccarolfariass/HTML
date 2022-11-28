@@ -12,7 +12,7 @@ body {
 	}
 	
 div#interface {
-	width: 900px;
+	width: 1000px;
 	background-color: #f7f7f7;
 	margin: -20px auto 0px auto;
 	box-shadow: 0px 0px 10px rgb(132, 44, 105);
@@ -80,4 +80,29 @@ nav#menu a{
 
 nav#menu a:hover {
 	color: darkcyan;
+}
+
+section#corpo {
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	width: 720px;
+	float: left;
+	border-right: 3px dotted pink;
+}
+
+aside#lateral {
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	width: 250px;
+	float: right;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 3px dotted pink;
+}
+
+footer#rodape p {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
 }
