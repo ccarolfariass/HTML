@@ -12,7 +12,7 @@ body {
 	}
 	
 div#interface {
-	width: 1000px;
+	width: 1200px;
 	background-color: #f7f7f7;
 	margin: -20px auto 0px auto;
 	box-shadow: 0px 0px 10px rgb(132, 44, 105);
@@ -90,6 +90,15 @@ section#corpo {
 	border-right: 3px dotted pink;
 }
 
+a {
+	color:rgb(241, 130, 12);
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
 table#tabelahora {
 	border: 1px solid black;
 	border-spacing: 0px;
@@ -103,11 +112,37 @@ table#tabelahora td {
 	text-align: center;
 }
 
+table#tabelahora td.ce {
+	font-weight: bold;
+	background-color: rgb(226, 193, 216);
+}
+
+table#tabelahora td.cd {
+	color:rgb(29, 1, 32);
+	background-color: rgb(227, 132, 198);
+}
+
+table#tabelahora caption {
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgb(121, 0, 155);
+}
+
 aside#lateral {
 	font-family: Arial, Helvetica, sans-serif;
 	display: block;
-	width: 250px;
+	width: 450px;
 	float: right;
+	background-color: rgb(183, 183, 239);
+	box-shadow: 2px 2px 2px rgb(87, 87, 147, .5);
+	margin-top: 20px;
+	margin-right: 15px;
+}
+
+aside#lateral h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	padding: 10px;
 }
 
 footer#rodape {
